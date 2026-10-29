@@ -81,7 +81,7 @@ Staying in bootloader.
 ## 7. Скрипт с проверками
 
 ```powershell
-.\scripts\Flash-Tasmota.ps1 -Port COM8 -Firmware "$env:USERPROFILE\Downloads\tasmota-RU.bin"
+.\scripts\Flash-Tasmota.ps1 -Port COM8 -Firmware "$env:USERPROFILE\Downloads\tasmota-RU.bin" -BackupDir "<ПАПКА_С_ДВУМЯ_ДАМПАМИ>"
 ```
 
 По умолчанию **только предварительная проверка**. Для реального стирания и записи нужен параметр `-IUnderstandThisErasesFlash` и локально сохранённые совпадающие резервные копии. Подробности в самом скрипте.

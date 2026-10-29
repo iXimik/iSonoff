@@ -1,0 +1,30 @@
+# Factory dumps, firmware images and Tasmota settings (may contain secrets)
+*.bin
+*.dmp
+*.backup
+*.bak
+*.zip
+SONOFF_Backup/
+backups/
+firmware/
+secrets/
+config.local.*
+.env
+.env.*
+!.env.example
+
+# Certificates and private credentials
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python / PowerShell / Windows
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.log
+*.tmp
+Thumbs.db
+Desktop.ini
